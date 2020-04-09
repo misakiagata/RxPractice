@@ -32,6 +32,7 @@ class ListViewController: UIViewController {
         listTableView.tableFooterView = UIView()
         listTableView.dataSource = self
         listTableView.delegate = self
+        navigationItem.title = "Sample List"
     }
 }
 
