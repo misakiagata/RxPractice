@@ -15,6 +15,7 @@ class ListViewController: UIViewController {
     private enum RowType: String, CaseIterable {
         case buttonTap
         case textValidation
+        case subject
         
         static let all = allCases.map { $0.rawValue }
     }
@@ -43,6 +44,9 @@ extension ListViewController: UITableViewDelegate {
         case .textValidation:
             let buttonTapViewController = TextValidationViewController.instantiate()
             navigationController?.pushViewController(buttonTapViewController, animated: true)
+        case .subject:
+            let subjectViewController = SubjectViewController.instantiate()
+            navigationController?.pushViewController(subjectViewController, animated: true)
         }
         tableView.deselectRow(at: indexPath, animated: true)
     }

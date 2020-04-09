@@ -17,6 +17,8 @@
 		A75B6183243E0DDA00B24E27 /* ButtonTapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B6182243E0DDA00B24E27 /* ButtonTapViewController.storyboard */; };
 		A75B6186243E168400B24E27 /* TextValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B6185243E168400B24E27 /* TextValidationViewController.swift */; };
 		A75B6188243E168D00B24E27 /* TextValidationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B6187243E168D00B24E27 /* TextValidationViewController.storyboard */; };
+		A75B618B243F5AB100B24E27 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B618A243F5AB100B24E27 /* SubjectViewController.swift */; };
+		A75B618D243F5ABD00B24E27 /* SubjectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */; };
 		A763C360243CA754007EB28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C35F243CA754007EB28E /* AppDelegate.swift */; };
 		A763C362243CA754007EB28E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C361243CA754007EB28E /* SceneDelegate.swift */; };
 		A763C367243CA754007EB28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A763C365243CA754007EB28E /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 		A75B6182243E0DDA00B24E27 /* ButtonTapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ButtonTapViewController.storyboard; sourceTree = "<group>"; };
 		A75B6185243E168400B24E27 /* TextValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidationViewController.swift; sourceTree = "<group>"; };
 		A75B6187243E168D00B24E27 /* TextValidationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextValidationViewController.storyboard; sourceTree = "<group>"; };
+		A75B618A243F5AB100B24E27 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubjectViewController.storyboard; sourceTree = "<group>"; };
 		A763C35C243CA754007EB28E /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A763C35F243CA754007EB28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A763C361243CA754007EB28E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 				A75B6171243DDED500B24E27 /* List */,
 				A75B617F243E0D8C00B24E27 /* ButtonTap */,
 				A75B6184243E166B00B24E27 /* TextValidation */,
+				A75B6189243F5A9500B24E27 /* Subject */,
 				A75B617A243DDFB600B24E27 /* Extension */,
 				A763C35F243CA754007EB28E /* AppDelegate.swift */,
 				A763C361243CA754007EB28E /* SceneDelegate.swift */,
@@ -123,6 +128,15 @@
 				A75B6187243E168D00B24E27 /* TextValidationViewController.storyboard */,
 			);
 			path = TextValidation;
+			sourceTree = "<group>";
+		};
+		A75B6189243F5A9500B24E27 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				A75B618A243F5AB100B24E27 /* SubjectViewController.swift */,
+				A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */,
+			);
+			path = Subject;
 			sourceTree = "<group>";
 		};
 		A763C353243CA754007EB28E = {
@@ -221,6 +235,7 @@
 				A75B6183243E0DDA00B24E27 /* ButtonTapViewController.storyboard in Resources */,
 				A763C367243CA754007EB28E /* Main.storyboard in Resources */,
 				A75B6175243DDEF300B24E27 /* ListViewController.storyboard in Resources */,
+				A75B618D243F5ABD00B24E27 /* SubjectViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A763C360243CA754007EB28E /* AppDelegate.swift in Sources */,
+				A75B618B243F5AB100B24E27 /* SubjectViewController.swift in Sources */,
 				A763C362243CA754007EB28E /* SceneDelegate.swift in Sources */,
 				A75B617C243DDFD200B24E27 /* Instantiatable.swift in Sources */,
 				A75B6179243DDFA700B24E27 /* NavigationController.swift in Sources */,
