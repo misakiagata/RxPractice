@@ -12,20 +12,20 @@ import RxCocoa
 
 class SubjectViewController: UIViewController {
     
-    let helloWorldSubject = PublishSubject<String>()
-    let disposeBag = DisposeBag()
+    private let disposeBag = DisposeBag()
+    var viewModel: SubjectViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        helloWorldSubject
+        viewModel = SubjectViewModel()
+        
+        viewModel.helloWorldSubject
             .subscribe(onNext: { [weak self] value in
                 print("value is \(value)")
             })
             .disposed(by: disposeBag)
         
-        helloWorldSubject.onNext("Hello World!")
-        helloWorldSubject.onNext("Hello World!!")
-        helloWorldSubject.onNext("Hello World!!!")
+        viewModel.updateItem()
     }
 }

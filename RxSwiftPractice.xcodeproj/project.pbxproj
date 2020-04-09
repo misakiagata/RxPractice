@@ -19,6 +19,7 @@
 		A75B6188243E168D00B24E27 /* TextValidationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B6187243E168D00B24E27 /* TextValidationViewController.storyboard */; };
 		A75B618B243F5AB100B24E27 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B618A243F5AB100B24E27 /* SubjectViewController.swift */; };
 		A75B618D243F5ABD00B24E27 /* SubjectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */; };
+		A75B618F243F5F5A00B24E27 /* SubjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B618E243F5F5A00B24E27 /* SubjectModel.swift */; };
 		A763C360243CA754007EB28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C35F243CA754007EB28E /* AppDelegate.swift */; };
 		A763C362243CA754007EB28E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C361243CA754007EB28E /* SceneDelegate.swift */; };
 		A763C367243CA754007EB28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A763C365243CA754007EB28E /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		A75B6187243E168D00B24E27 /* TextValidationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextValidationViewController.storyboard; sourceTree = "<group>"; };
 		A75B618A243F5AB100B24E27 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
 		A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubjectViewController.storyboard; sourceTree = "<group>"; };
+		A75B618E243F5F5A00B24E27 /* SubjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectModel.swift; sourceTree = "<group>"; };
 		A763C35C243CA754007EB28E /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A763C35F243CA754007EB28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A763C361243CA754007EB28E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				A75B618A243F5AB100B24E27 /* SubjectViewController.swift */,
+				A75B618E243F5F5A00B24E27 /* SubjectModel.swift */,
 				A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */,
 			);
 			path = Subject;
@@ -305,6 +308,7 @@
 				A75B617C243DDFD200B24E27 /* Instantiatable.swift in Sources */,
 				A75B6179243DDFA700B24E27 /* NavigationController.swift in Sources */,
 				A75B6186243E168400B24E27 /* TextValidationViewController.swift in Sources */,
+				A75B618F243F5F5A00B24E27 /* SubjectModel.swift in Sources */,
 				A75B6181243E0DCD00B24E27 /* ButtonTapViewController.swift in Sources */,
 				A75B6177243DDF8B00B24E27 /* RootViewController.swift in Sources */,
 				A75B6173243DDEE700B24E27 /* ListViewController.swift in Sources */,
