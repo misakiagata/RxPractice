@@ -22,7 +22,13 @@ class SubjectViewController: UIViewController {
         
         viewModel.helloWorldSubject
             .subscribe(onNext: { [weak self] value in
-                print("value is \(value)")
+                print("Subject:\nvalue is \(value)")
+            })
+            .disposed(by: disposeBag)
+        
+        viewModel.helloWorldRelay
+            .subscribe(onNext: { [weak self] value in
+                print("Relay:\nvalue is \(value)")
             })
             .disposed(by: disposeBag)
         

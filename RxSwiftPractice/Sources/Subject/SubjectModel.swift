@@ -13,10 +13,15 @@ import RxCocoa
 class SubjectViewModel {
     
     let helloWorldSubject = PublishSubject<String>()
+    let helloWorldRelay = PublishRelay<String>()
     
     func updateItem() {
         helloWorldSubject.onNext("Hello World!")
         helloWorldSubject.onNext("Hello World!!")
         helloWorldSubject.onNext("Hello World!!!")
+        
+        helloWorldRelay.accept("Hello World!")
+        helloWorldRelay.accept("Hello World!!")
+        helloWorldRelay.accept("Hello World!!!")
     }
 }
