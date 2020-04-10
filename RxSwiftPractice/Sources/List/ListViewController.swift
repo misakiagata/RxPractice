@@ -16,6 +16,7 @@ class ListViewController: UIViewController {
         case buttonTap
         case textValidation
         case subject
+        case bind
         
         static let all = allCases.map { $0.rawValue }
     }
@@ -48,6 +49,9 @@ extension ListViewController: UITableViewDelegate {
         case .subject:
             let subjectViewController = SubjectViewController.instantiate()
             navigationController?.pushViewController(subjectViewController, animated: true)
+        case .bind:
+            let bindViewController = BindViewController.instantiate()
+            navigationController?.pushViewController(bindViewController, animated: true)
         }
         tableView.deselectRow(at: indexPath, animated: true)
     }

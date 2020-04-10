@@ -20,6 +20,8 @@
 		A75B618B243F5AB100B24E27 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B618A243F5AB100B24E27 /* SubjectViewController.swift */; };
 		A75B618D243F5ABD00B24E27 /* SubjectViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */; };
 		A75B618F243F5F5A00B24E27 /* SubjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B618E243F5F5A00B24E27 /* SubjectModel.swift */; };
+		A75B61922440327C00B24E27 /* BindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B61912440327C00B24E27 /* BindViewController.swift */; };
+		A75B61942440328A00B24E27 /* BindViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B61932440328A00B24E27 /* BindViewController.storyboard */; };
 		A763C360243CA754007EB28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C35F243CA754007EB28E /* AppDelegate.swift */; };
 		A763C362243CA754007EB28E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C361243CA754007EB28E /* SceneDelegate.swift */; };
 		A763C367243CA754007EB28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A763C365243CA754007EB28E /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		A75B618A243F5AB100B24E27 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
 		A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubjectViewController.storyboard; sourceTree = "<group>"; };
 		A75B618E243F5F5A00B24E27 /* SubjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectModel.swift; sourceTree = "<group>"; };
+		A75B61912440327C00B24E27 /* BindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindViewController.swift; sourceTree = "<group>"; };
+		A75B61932440328A00B24E27 /* BindViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BindViewController.storyboard; sourceTree = "<group>"; };
 		A763C35C243CA754007EB28E /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A763C35F243CA754007EB28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A763C361243CA754007EB28E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				A75B617F243E0D8C00B24E27 /* ButtonTap */,
 				A75B6184243E166B00B24E27 /* TextValidation */,
 				A75B6189243F5A9500B24E27 /* Subject */,
+				A75B61902440326C00B24E27 /* Bind */,
 				A75B617A243DDFB600B24E27 /* Extension */,
 				A763C35F243CA754007EB28E /* AppDelegate.swift */,
 				A763C361243CA754007EB28E /* SceneDelegate.swift */,
@@ -140,6 +145,15 @@
 				A75B618C243F5ABD00B24E27 /* SubjectViewController.storyboard */,
 			);
 			path = Subject;
+			sourceTree = "<group>";
+		};
+		A75B61902440326C00B24E27 /* Bind */ = {
+			isa = PBXGroup;
+			children = (
+				A75B61912440327C00B24E27 /* BindViewController.swift */,
+				A75B61932440328A00B24E27 /* BindViewController.storyboard */,
+			);
+			path = Bind;
 			sourceTree = "<group>";
 		};
 		A763C353243CA754007EB28E = {
@@ -232,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75B61942440328A00B24E27 /* BindViewController.storyboard in Resources */,
 				A763C36C243CA755007EB28E /* LaunchScreen.storyboard in Resources */,
 				A763C369243CA755007EB28E /* Assets.xcassets in Resources */,
 				A75B6188243E168D00B24E27 /* TextValidationViewController.storyboard in Resources */,
@@ -307,6 +322,7 @@
 				A763C362243CA754007EB28E /* SceneDelegate.swift in Sources */,
 				A75B617C243DDFD200B24E27 /* Instantiatable.swift in Sources */,
 				A75B6179243DDFA700B24E27 /* NavigationController.swift in Sources */,
+				A75B61922440327C00B24E27 /* BindViewController.swift in Sources */,
 				A75B6186243E168400B24E27 /* TextValidationViewController.swift in Sources */,
 				A75B618F243F5F5A00B24E27 /* SubjectModel.swift in Sources */,
 				A75B6181243E0DCD00B24E27 /* ButtonTapViewController.swift in Sources */,
