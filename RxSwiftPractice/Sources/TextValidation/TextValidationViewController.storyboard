@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Ro2-Wd-NsP">
-                                <rect key="frame" x="40" y="124" width="334" height="78.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ro2-Wd-NsP">
+                                <rect key="frame" x="40" y="124" width="334" height="70.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sfC-dl-ywR">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="34"/>
@@ -24,7 +24,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R36-S1-frq">
-                                        <rect key="frame" x="0.0" y="58" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="50" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -37,8 +37,8 @@
                                     <constraint firstAttribute="trailing" secondItem="sfC-dl-ywR" secondAttribute="trailing" id="tJj-xA-uAn"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="la6-Qi-gRh">
-                                <rect key="frame" x="40" y="282.5" width="334" height="78.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="la6-Qi-gRh">
+                                <rect key="frame" x="40" y="234.5" width="334" height="70.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iGS-K5-kwf">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="34"/>
@@ -46,7 +46,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgO-Hh-Kwh">
-                                        <rect key="frame" x="0.0" y="58" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="50" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -64,7 +64,7 @@
                         <constraints>
                             <constraint firstItem="mBO-KK-ECN" firstAttribute="trailing" secondItem="Ro2-Wd-NsP" secondAttribute="trailing" constant="40" id="33g-lk-cfi"/>
                             <constraint firstItem="mBO-KK-ECN" firstAttribute="trailing" secondItem="la6-Qi-gRh" secondAttribute="trailing" constant="40" id="Axx-5X-L6d"/>
-                            <constraint firstItem="la6-Qi-gRh" firstAttribute="top" secondItem="Ro2-Wd-NsP" secondAttribute="bottom" constant="80" id="OjC-ib-zmo"/>
+                            <constraint firstItem="la6-Qi-gRh" firstAttribute="top" secondItem="Ro2-Wd-NsP" secondAttribute="bottom" constant="40" id="OjC-ib-zmo"/>
                             <constraint firstItem="la6-Qi-gRh" firstAttribute="leading" secondItem="mBO-KK-ECN" secondAttribute="leading" constant="40" id="QwD-Y0-TcD"/>
                             <constraint firstItem="Ro2-Wd-NsP" firstAttribute="top" secondItem="mBO-KK-ECN" secondAttribute="top" constant="80" id="kkI-aL-Lu1"/>
                             <constraint firstItem="Ro2-Wd-NsP" firstAttribute="leading" secondItem="mBO-KK-ECN" secondAttribute="leading" constant="40" id="qqi-Uk-a1R"/>
