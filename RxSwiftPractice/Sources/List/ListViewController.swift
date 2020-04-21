@@ -17,6 +17,7 @@ class ListViewController: UIViewController {
         case textValidation
         case subject
         case bind
+        case count
         
         static let all = allCases.map { $0.rawValue }
     }
@@ -52,6 +53,9 @@ extension ListViewController: UITableViewDelegate {
         case .bind:
             let bindViewController = BindViewController.instantiate()
             navigationController?.pushViewController(bindViewController, animated: true)
+        case .count:
+            let countViewController = CountViewController.instantiate()
+            navigationController?.pushViewController(countViewController, animated: true)
         }
         tableView.deselectRow(at: indexPath, animated: true)
     }

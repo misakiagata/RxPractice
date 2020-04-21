@@ -27,6 +27,9 @@
 		A763C367243CA754007EB28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A763C365243CA754007EB28E /* Main.storyboard */; };
 		A763C369243CA755007EB28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A763C368243CA755007EB28E /* Assets.xcassets */; };
 		A763C36C243CA755007EB28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A763C36A243CA755007EB28E /* LaunchScreen.storyboard */; };
+		A7654995244F176600918102 /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7654994244F176600918102 /* CountViewController.swift */; };
+		A7654997244F177100918102 /* CountViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7654996244F177100918102 /* CountViewController.storyboard */; };
+		A7654999244F178D00918102 /* CountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7654998244F178D00918102 /* CountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		A763C368243CA755007EB28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A763C36B243CA755007EB28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A763C36D243CA755007EB28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7654994244F176600918102 /* CountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewController.swift; sourceTree = "<group>"; };
+		A7654996244F177100918102 /* CountViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountViewController.storyboard; sourceTree = "<group>"; };
+		A7654998244F178D00918102 /* CountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewModel.swift; sourceTree = "<group>"; };
 		CED95969F43959EBCA6A25ED /* Pods-RxSwiftPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +99,7 @@
 				A75B6184243E166B00B24E27 /* TextValidation */,
 				A75B6189243F5A9500B24E27 /* Subject */,
 				A75B61902440326C00B24E27 /* Bind */,
+				A7654993244F174100918102 /* Count */,
 				A75B617A243DDFB600B24E27 /* Extension */,
 				A763C35F243CA754007EB28E /* AppDelegate.swift */,
 				A763C361243CA754007EB28E /* SceneDelegate.swift */,
@@ -186,6 +193,16 @@
 			path = RxSwiftPractice;
 			sourceTree = "<group>";
 		};
+		A7654993244F174100918102 /* Count */ = {
+			isa = PBXGroup;
+			children = (
+				A7654994244F176600918102 /* CountViewController.swift */,
+				A7654998244F178D00918102 /* CountViewModel.swift */,
+				A7654996244F177100918102 /* CountViewController.storyboard */,
+			);
+			path = Count;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7654997244F177100918102 /* CountViewController.storyboard in Resources */,
 				A75B61942440328A00B24E27 /* BindViewController.storyboard in Resources */,
 				A763C36C243CA755007EB28E /* LaunchScreen.storyboard in Resources */,
 				A763C369243CA755007EB28E /* Assets.xcassets in Resources */,
@@ -317,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7654995244F176600918102 /* CountViewController.swift in Sources */,
 				A763C360243CA754007EB28E /* AppDelegate.swift in Sources */,
 				A75B618B243F5AB100B24E27 /* SubjectViewController.swift in Sources */,
 				A763C362243CA754007EB28E /* SceneDelegate.swift in Sources */,
@@ -328,6 +347,7 @@
 				A75B6181243E0DCD00B24E27 /* ButtonTapViewController.swift in Sources */,
 				A75B6177243DDF8B00B24E27 /* RootViewController.swift in Sources */,
 				A75B6173243DDEE700B24E27 /* ListViewController.swift in Sources */,
+				A7654999244F178D00918102 /* CountViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
