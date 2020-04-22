@@ -18,6 +18,7 @@ class ListViewController: UIViewController {
         case subject
         case bind
         case count
+        case webView
         
         static let all = allCases.map { $0.rawValue }
     }
@@ -56,6 +57,9 @@ extension ListViewController: UITableViewDelegate {
         case .count:
             let countViewController = CountViewController.instantiate()
             navigationController?.pushViewController(countViewController, animated: true)
+        case .webView:
+            let webViewController = WebViewController.instantiate()
+            navigationController?.pushViewController(webViewController, animated: true)
         }
         tableView.deselectRow(at: indexPath, animated: true)
     }
