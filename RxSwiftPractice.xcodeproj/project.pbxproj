@@ -10,7 +10,6 @@
 		6E48C337EBA628DAFC616843 /* Pods_RxSwiftPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C63659A9C7467831C7406C4 /* Pods_RxSwiftPractice.framework */; };
 		A75B6173243DDEE700B24E27 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B6172243DDEE700B24E27 /* ListViewController.swift */; };
 		A75B6175243DDEF300B24E27 /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B6174243DDEF300B24E27 /* ListViewController.storyboard */; };
-		A75B6177243DDF8B00B24E27 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B6176243DDF8B00B24E27 /* RootViewController.swift */; };
 		A75B6179243DDFA700B24E27 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B6178243DDFA700B24E27 /* NavigationController.swift */; };
 		A75B617C243DDFD200B24E27 /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B617B243DDFD200B24E27 /* Instantiatable.swift */; };
 		A75B6181243E0DCD00B24E27 /* ButtonTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B6180243E0DCD00B24E27 /* ButtonTapViewController.swift */; };
@@ -39,7 +38,6 @@
 		5C63659A9C7467831C7406C4 /* Pods_RxSwiftPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75B6172243DDEE700B24E27 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		A75B6174243DDEF300B24E27 /* ListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListViewController.storyboard; sourceTree = "<group>"; };
-		A75B6176243DDF8B00B24E27 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		A75B6178243DDFA700B24E27 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		A75B617B243DDFD200B24E27 /* Instantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
 		A75B6180243E0DCD00B24E27 /* ButtonTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTapViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				A75B617A243DDFB600B24E27 /* Extension */,
 				A763C35F243CA754007EB28E /* AppDelegate.swift */,
 				A763C361243CA754007EB28E /* SceneDelegate.swift */,
-				A75B6176243DDF8B00B24E27 /* RootViewController.swift */,
 				A75B6178243DDFA700B24E27 /* NavigationController.swift */,
 			);
 			path = Sources;
@@ -360,7 +357,6 @@
 				A75B6186243E168400B24E27 /* TextValidationViewController.swift in Sources */,
 				A75B618F243F5F5A00B24E27 /* SubjectModel.swift in Sources */,
 				A75B6181243E0DCD00B24E27 /* ButtonTapViewController.swift in Sources */,
-				A75B6177243DDF8B00B24E27 /* RootViewController.swift in Sources */,
 				A765499D2450156A00918102 /* WebViewController.swift in Sources */,
 				A75B6173243DDEE700B24E27 /* ListViewController.swift in Sources */,
 				A7654999244F178D00918102 /* CountViewModel.swift in Sources */,
